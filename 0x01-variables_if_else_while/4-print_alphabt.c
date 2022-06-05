@@ -7,7 +7,7 @@
 */
 int main(void)
 {char lowcase;
-	for (lowcase = 'a'; lowcase <= 'z'; lowcase++)
+for (lowcase = 'a'; lowcase <= 'z'; lowcase++)
 if (lowcase != 'e' && lowcase != 'q')
 putchar (lowcase);
 putchar ('\n');
