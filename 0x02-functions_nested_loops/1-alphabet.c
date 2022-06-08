@@ -1,18 +1,23 @@
-#include<main.h>
+#include "main.h"
+#include <unistd.h>
 /**
 *
 * main - check the code
 *
 * Return: Always 0
 */
-int main(void)
+void print_alphabet(void)
 {
-	char lowcase;
+	char lcase;
+	
+	lcase = 'a';
 
-	for (lowcase = 'a'; lowcase <= 'z'; lowcase++)
+	while (lcase <= 'z')
+	
+{
+	_putchar(lcase);
+	lcase++;
+}
 
-putchar('lowcase');
-putchar('\n');
-print_alphabet();
-return (0);
+_putchar('\n');
 }
