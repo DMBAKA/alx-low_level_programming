@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
-* main - check the code
+* print_alphabet - print alphabet
 * Description: print lowercase
 * Return: void
 */
