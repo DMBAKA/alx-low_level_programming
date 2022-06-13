@@ -11,3 +11,4 @@ void print_triangle(int size);
 int _putchar(char c);
 void print_number(int n);
 int pattern(int n);
+int main(void);
